@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is a wrapper on top of async-storage package to make work synchronously",
   "main": "index.js",
+  "types": "./types/index.d.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
