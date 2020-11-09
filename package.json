@@ -1,0 +1,48 @@
+{
+  "name": "react-native-permanent-storage",
+  "version": "1.0.0",
+  "description": "This is a wrapper on top of async-storage package to make work synchronously",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjeevmalagi1/react-native-permanent-storage.git"
+  },
+  "keywords": [
+    "react-native-permanent-storage",
+    "permanent-storage",
+    "storage"
+  ],
+  "author": "Sanjeev Malagi <sanjeevmalagi@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjeevmalagi1/react-native-permanent-storage/issues"
+  },
+  "homepage": "https://github.com/sanjeevmalagi1/react-native-permanent-storage#readme",
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "expo": "^39.0.4",
+    "react": "^17.0.1",
+    "react-native": "^0.63.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@types/jest": "^26.0.15",
+    "@types/react": "^16.9.56",
+    "@types/react-native": "^0.63.33",
+    "@types/react-test-renderer": "^16.9.3",
+    "babel-preset-expo": "~8.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "typescript": "^4.0.5"
+  }
+}
