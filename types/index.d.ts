@@ -17,7 +17,7 @@ declare module 'react-native-permanent-storage' {
     removeItem(back?: (error?: Error) => void): void;
   }
 
-  export const PermanentStorageWrapper: (props: { children: any }) => React.FC<{ children: any }>
+  export const PermanentStorageWrapper: React.FC<{ children: any }>
 
   const PermanentStorage: PermanentStorageStatic;
 
